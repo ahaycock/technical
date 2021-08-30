@@ -6,7 +6,7 @@ Terraform repository which will security harden the AWS Account.
 - [x] Ensure CloudTrail is enabled in all regions 
 - [x] Ensure CloudTrail log file validation is enabled. 
 - [x] Ensure that both management and global events are captured within CloudTrail. 
-- [] Ensure CloudTrail logs are encrypted at rest using KMS customer managed CMKs. 
+- [ ] Ensure CloudTrail logs are encrypted at rest using KMS customer managed CMKs. 
 
 - [x] Ensure CloudTrail logs are stored within an S3 bucket. 
 - [x] Ensure controls are in place to block public access to the bucket. 
@@ -20,4 +20,4 @@ Terraform repository which will security harden the AWS Account.
 - [x] Usage of the "root" account
 
 ## Removing Default VPCs Requirements
-- [] Remove the default VPC within every region of the account.
+- [ ] Remove the default VPC within every region of the account.
